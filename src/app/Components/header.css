@@ -1,0 +1,97 @@
+.navbar {
+    position: relative;
+    padding: 20px;
+    animation: slideInFromLeft 1.89s ease-in-out forwards;
+    transform: translateX(-100%);
+    opacity: 0;
+    background-color: white; 
+  }
+  
+  @keyframes slideInFromLeft {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .nav-items ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .nav-items ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-items ul li::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-items ul li:hover::after {
+    width: 100%;
+  }
+  
+  .nav-items ul li:hover {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px;
+    }
+  
+    .logo {
+      padding-left: 10px;
+    }
+  
+    .nav-items ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .nav-items.active ul {
+      display: flex;
+    }
+  
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .burger div {
+      width: 25px;
+      height: 3px;
+      background-color: black;
+      margin: 5px;
+      position: relative;
+      left: 10%;
+      transition: 0.3s;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .burger {
+      display: none;
+    }
+  }
+  
