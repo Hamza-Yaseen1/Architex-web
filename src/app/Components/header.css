@@ -76,6 +76,7 @@
     .burger {
       display: block;
       cursor: pointer;
+      padding-left: 400px;
     }
   
     .burger div {

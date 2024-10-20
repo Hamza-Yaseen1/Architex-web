@@ -21,7 +21,7 @@ function Header() {
           height={42}
         />
       </div>
-      <div className="burger" onClick={toggleMenu}>
+      <div className="burger " onClick={toggleMenu}>
         <div></div>
         <div></div>
         <div></div>
