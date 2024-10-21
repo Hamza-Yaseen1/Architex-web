@@ -76,8 +76,16 @@
     .burger {
       display: block;
       cursor: pointer;
-      padding-left: 400px;
+      position: absolute;
+      right: 10px; 
+      top: 20px;   
     }
+    
+    .logo {
+      padding-left: 10px; 
+      display: inline-block;
+    }
+    
   
     .burger div {
       width: 25px;
