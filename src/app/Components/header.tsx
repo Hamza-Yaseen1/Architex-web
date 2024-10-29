@@ -12,8 +12,8 @@ function Header() {
   };
 
   return (
-    <section className="navbar flex justify-between items-center">
-      <div className="logo pl-4 pt-5">
+    <section className="navbar flex justify-between">
+      <div className="logo pl-4 pt-4">
         <Image
           src="/images/Logo.png"
           alt="Logo"

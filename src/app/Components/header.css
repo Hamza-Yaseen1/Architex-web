@@ -53,10 +53,6 @@
       padding: 15px;
     }
   
-    .logo {
-      padding-left: 10px;
-    }
-  
     .nav-items ul {
       display: none;
       flex-direction: column;
