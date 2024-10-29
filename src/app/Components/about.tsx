@@ -2,39 +2,52 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className=" relative h-custom435 top-16">
-      <div className="about flex  p-10 pt-4 h-custom435 justify-evenly text-center bg-lightGray">
-        <div className="images   h-96 w-1/2">
-        <div className="about-images pl-2 grid grid-cols-2 gap-2">
-  <Image
-    src="/images/about-1.png"
-    alt="Image 1"
-    height={200}
-    width={200}
-    className="w-full"
-  />
-  <Image
-    src="/images/about-2.png"
-    alt="Image 2"
-    height={200}
-    width={200}
-    className="w-full"
-  />
-  
-  <Image
-    src="/images/about-3.png"
-    alt="Image 3"
-    height={200}
-    width={200}
-    className="col-span-2 w-full mx-auto"
-  />
-</div>
+    <section className="relative h-custom435 top-16">
+      <div className="flex justify-evenly p-10 pt-4 h-full text-center bg-lightGray">
+        
+        {/* Image Section */}
+        <div className="h-full w-1/2 flex flex-col gap-5">
+          <div className="flex gap-3 h-full">
+            
+            {/* Left Image Column */}
+            <div className="flex flex-col gap-3 w-1/2">
+              <div className="relative h-2/3 w-full">
+                <Image
+                  src="/images/about-1.png"
+                  alt="Image 1"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded"
+                />
+              </div>
+              <div className="relative h-1/3 w-full">
+                <Image
+                  src="/images/about-3.png"
+                  alt="Image 2"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded"
+                />
+              </div>
+            </div>
 
-
+            {/* Right Image */}
+            <div className="relative w-1/2 h-full">
+              <Image
+                src="/images/about-2.png"
+                alt="Image 3"
+                layout="fill"
+                objectFit="cover"
+                className="rounded"
+              />
+            </div>
+          </div>
         </div>
-        <div className="about-content  h-96 w-4/5 p-5 pl-0">
-          <h1 className="text-5xl text-gray-500">ABOUT</h1>
-          <p className="p-10">
+
+        {/* Content Section */}
+        <div className="about-content h-full w-3/4 pl-16  ">
+          <h1 className="text-5xl font-semibold text-gray-600 ">ABOUT</h1>
+          <p className="text-gray-700 leading-8 pt-8">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -43,6 +56,7 @@ function About() {
             remaining essentially unchanged.
           </p>
         </div>
+        
       </div>
     </section>
   );
