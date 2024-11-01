@@ -13,6 +13,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         lightGray: "#FBFBFB", 
+        'custom-light-blue': '#ccd6df',
       },
       height: {
         custom435: "435px", // Custom height added here

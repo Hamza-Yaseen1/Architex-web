@@ -1,0 +1,11 @@
+@keyframes slideInFromLeft {
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.about{
+    animation: slideInFromTop 2.89s ease-in-out forwards;
+    transform: translateX(-100%);
+    opacity: 0;
+  }

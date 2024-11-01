@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div className={`nav-items ${isOpen ? 'active' : ''}`}>
         <ul className="flex justify-between pr-8 pt-5 gap-9">
-          <Link href="/about"><li>MAIN</li></Link>
+          <Link href="/page.tsx"><li>MAIN</li></Link>
           <Link href="/gallery"><li>GALLERY</li></Link>
           <Link href="/projects"><li>PROJECTS</li></Link>
           <Link href="/certifications"><li>CERTIFICATIONS</li></Link>

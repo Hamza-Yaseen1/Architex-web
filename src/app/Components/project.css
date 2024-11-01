@@ -1,0 +1,28 @@
+@keyframes slideInFromLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.projects{
+  animation: slideInFromLeft 2.89s ease-in-out forwards;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+  .box-1,
+  .box-2 {
+    height: 255px;
+    width: 380px;
+  }
+  
+  .box1-1{
+    height: 255px;
+    width: 235px;
+  }
+  .box1-2,
+  .box1-3 {
+    height: 255px;
+    width: 350px;
+  }
+ 
