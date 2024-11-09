@@ -18,6 +18,7 @@ function Hero() {
         width={770}/> 
     </div>
     
+  
     </section>
   
   </>
