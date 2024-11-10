@@ -10,6 +10,7 @@ function Header() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
 
   return (
     <section className="navbar flex justify-between">
@@ -28,10 +29,9 @@ function Header() {
       </div>
       <div className={`nav-items ${isOpen ? 'active' : ''}`}>
         <ul className="flex justify-between pr-8 pt-5 gap-9">
-          <Link href=""><li>MAIN</li></Link>
+          <Link href="/Components/main"><li>MAIN</li></Link>
           <Link href="/Components/gallery"><li>GALLERY</li></Link>
-          <Link href="/projects"><li>PROJECTS</li></Link>
-          <Link href="/certifications"><li>CERTIFICATIONS</li></Link>
+          <Link href="/Components/main"><li>PROJECTS</li></Link>
           <Link href="/Components/Contact"><li>CONTACT US</li></Link>
         </ul>
       </div>
