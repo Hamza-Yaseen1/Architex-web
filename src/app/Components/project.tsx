@@ -5,7 +5,7 @@ import Button from "./button";
 function Projects() {
   return (
     <section className="projects p-4 md:p-8">
-      <h1 className="text-3xl md:text-5xl text-gray-700 pt-6 md:pt-9 pl-2 md:pl-7 font-light text-center md:text-left">
+      <h1 className="text-3xl md:text-5xl text-gray-700 pt-6 md:pt-9 pl-2 md:pl-12 font-light text-center md:text-left">
         Our Projects
       </h1>
       <section className="project-images space-y-6 md:space-y-0">
