@@ -14,7 +14,7 @@ function WorkInProgress() {
         />
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Work in Progress</h1>
         <p className="text-lg text-gray-600 mb-6">
-          We're currently working hard to bring this page to life. Please check back soon!
+          We are currently working hard to bring this page to life. Please check back soon!
         </p>
         <p className="text-md text-gray-500 mb-4">
           If you need anything urgently, feel free to{" "}
