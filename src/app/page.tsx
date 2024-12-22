@@ -8,6 +8,8 @@ export default function Home() {
     <Hero/>
     <About/>
     <Focus/>
+    {/* <br /> */}
+    {/* <br /> */}
     <Projects/>
     </>
   );
