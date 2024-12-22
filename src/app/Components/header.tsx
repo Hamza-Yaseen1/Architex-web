@@ -15,12 +15,13 @@ function Header() {
   return (
     <section className="navbar flex justify-between">
       <div className="logo pl-4 pt-4">
-        <Image
+       <a href="/">
+       <Image
           src="/images/Logo.png"
           alt="Logo"
           width={69}
           height={42}
-        />
+        /></a>
       </div>
       <div className="burger " onClick={toggleMenu}>
         <div></div>
