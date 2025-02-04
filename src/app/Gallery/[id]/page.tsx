@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React from 'react';
@@ -63,15 +64,14 @@ const Dynamic = () => {
         <div className="content h-80 w-96 max-w-md border-0 p-6 bg-white">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
 {product.name}          </h1>
-          <h3 className="text-lg text-gray-700 mb-4">
-{product.location}          </h3>
+          
           <p className="text-sm text-gray-600 leading-relaxed">
             {product.description}
           </p>
           <span className="text-xl font-bold text-green-600 block mb-4 pt-3">
 {product.price}          </span>
           <button className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition">
-<a href="/Components/Contact">  Buy Now
+<a href="/checkout">  Buy Now
 </a></button>
         </div>
       </section>
