@@ -25,6 +25,8 @@ function Focus() {
         </div>
         
       </section>
+      <br /><br />
+      <br />
     </div>
   );
 }
