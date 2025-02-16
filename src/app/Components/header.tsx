@@ -30,9 +30,9 @@ function Header() {
       </div>
       <div className={`nav-items ${isOpen ? 'active' : ''}`}>
         <ul className="flex justify-between pr-8 pt-5 gap-9">
-          <Link href="/Components/main"><li>MAIN</li></Link>
+          <Link href="/"><li>Home</li></Link>
           <Link href="/Gallery"><li>GALLERY</li></Link>
-          <Link href="/Components/main"><li>PROJECTS</li></Link>
+          <Link href="/Gallery"><li>PROJECTS</li></Link>
           <Link href="/Components/Contact"><li>CONTACT US</li></Link>
         </ul>
       </div>
